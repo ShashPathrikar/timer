@@ -5,15 +5,20 @@
   margin: 0;
   color: #243642;
 }
+h1 {
+  font-size: 6vb;
+}
 #OutputField {
-  height: 300px;
-  width: 500px;
+  height: 29vh;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
+  font-size: 3vb;
 }
 #InputJar {
   display: block;
+  height: 100%;
 }
 body {
   display: flex;
@@ -24,25 +29,25 @@ body {
 }
 #container {
   background-color: #629584;
-  max-height: 500px;
-  max-width: 500px;
+  height: 50vh;
+  width: 50vw;
   border-radius: 50px;
   padding: 30px;
 }
 button {
   border: none;
   border-radius: 50px;
-  font-size: x-large;
+  font-size: 4vb;
   font-weight: 500;
   background: #e2f1e7;
 }
 input {
-  width: 400px;
-  height: 100px;
+  width: 85%;
+  height: 50%;
   outline: none;
   border: none;
   background: transparent;
-  font-size: xx-large;
+  font-size: 9vb;
   font-weight: 600;
 }
 
@@ -52,26 +57,31 @@ input::-webkit-inner-spin-button {
   margin: 0;
 }
 #enter {
-  width: 500px;
-  height: 100px;
-  margin: 50px 0 50px 0;
+  width: 100%;
+  height: 30%;
 }
 #start {
-  width: 200px;
-  height: 50px;
-  margin: 23px;
+  width: 38%;
+  height: 20%;
+  font-size: 3vb;
+  margin: 5%;
   background-color: #243642;
   color: #629584;
   transition: 250ms;
 }
 #reset {
-  width: 200px;
-  height: 50px;
-  margin: 23px;
+  width: 38%;
+  font-size: 3vb;
+  height: 20%;
+  margin: 5%;
   background-color: #243642;
   color: #629584;
   transition: 250ms;
 }
 span {
-  font-size: 200px;
+  font-size: 16vw;
+}
+#startAndReset {
+  width: 100%;
+  height: 100%;
 }
