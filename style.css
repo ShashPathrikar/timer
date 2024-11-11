@@ -62,7 +62,7 @@ input::-webkit-inner-spin-button {
 }
 #start {
   width: 38%;
-  height: 20%;
+  height: 6vh;
   font-size: 3vb;
   margin: 5%;
   background-color: #243642;
@@ -72,7 +72,7 @@ input::-webkit-inner-spin-button {
 #reset {
   width: 38%;
   font-size: 3vb;
-  height: 20%;
+  height: 6vh;
   margin: 5%;
   background-color: #243642;
   color: #629584;
